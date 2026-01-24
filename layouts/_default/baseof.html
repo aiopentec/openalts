@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
+    header { border-bottom: 1px solid #ddd; padding-bottom: 1rem; margin-bottom: 2rem; }
+    header a { text-decoration: none; color: #333; font-size: 1.5rem; font-weight: bold; }
+    footer { border-top: 1px solid #ddd; margin-top: 3rem; padding-top: 1rem; text-align: center; color: #666; }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="{{ .Site.BaseURL }}">OpenAlts</a>
+</header>
+
+<main>
+  {{ block "main" . }}{{ end }}
+</main>
+
+<footer>
+  <p>© {{ now.Year }} OpenAlts</p>
+</footer>
+
+</body>
+</html>

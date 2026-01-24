@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<h1>Open Source Software Alternatives</h1>
+<p>{{ .Site.Params.description }}</p>
+
+<h2>Browse by Category</h2>
+<ul>
+{{ range .Site.Taxonomies.categories }}
+  <li>
+    <a href="{{ .Page.RelPermalink }}">{{ humanize .Page.Title }}</a> ({{ .Count }} tools)
+  </li>
+{{ end }}
+</ul>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "description": "{{ .Site.Params.description }}",
+  "url": "{{ .Site.BaseURL }}"
+}
+</script>
+
+{{ end }}

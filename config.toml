@@ -1,0 +1,9 @@
+baseURL = "https://aiopentec.github.io/openalts/"
+languageCode = "en-us"
+title = "OpenAlts"
+
+[taxonomies]
+category = "categories"
+
+[params]
+description = "Open source alternatives to popular software tools."

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="container">
+  <h1>{{ .Title }}</h1>
+
+  {{ if .Content }}
+    <div class="content">
+      {{ .Content }}
+    </div>
+  {{ end }}
+
+  <ul>
+  {{ range .Site.Taxonomies.categories }}
+    <li><a href="{{ .Page.RelPermalink | urlize }}">{{ .Page.Title }}</a> ({{ .Count }} tools)</li>
+  {{ end }}
+</ul>
+</main>
+{{ end }}

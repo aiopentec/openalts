@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Team-Communication on My New Hugo Site</title>
+    <link>http://localhost:1313/openalts/categories/team-communication/</link>
+    <description>Recent content in Team-Communication on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/openalts/categories/team-communication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Element – Open Source Alternative to Slack</title>
+      <link>http://localhost:1313/openalts/tools/element/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openalts/tools/element/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mattermost – Open Source Alternative to Slack</title>
+      <link>http://localhost:1313/openalts/tools/mattermost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openalts/tools/mattermost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Revolt – Open Source Alternative to Slack</title>
+      <link>http://localhost:1313/openalts/tools/revolt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openalts/tools/revolt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rocket.Chat – Open Source Alternative to Slack</title>
+      <link>http://localhost:1313/openalts/tools/rocket-chat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openalts/tools/rocket-chat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zulip – Open Source Alternative to Slack</title>
+      <link>http://localhost:1313/openalts/tools/zulip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openalts/tools/zulip/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

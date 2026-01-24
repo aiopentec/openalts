@@ -1,0 +1,33 @@
+<main class="category-page">
+
+  <!-- H1 -->
+  <h1>{{ humanize .Title }} Tools</h1>
+
+  <!-- Intro (SEO-friendly) -->
+  <p>
+    Browse open-source {{ humanize .Title | lower }} tools.
+    These alternatives help you replace proprietary software
+    while keeping control of your data.
+  </p>
+
+  <!-- Tool list -->
+  <ul class="tool-list">
+    {{ range .Pages }}
+      <li class="tool-card">
+        <h2>
+          <a href="{{ .RelPermalink }}">
+            {{ .Params.tool_name }}
+          </a>
+        </h2>
+
+        <p>{{ .Params.description }}</p>
+
+        <p>
+          <strong>Alternative to:</strong>
+          {{ .Params.commercial_alternative }}
+        </p>
+      </li>
+    {{ end }}
+  </ul>
+
+</main>
