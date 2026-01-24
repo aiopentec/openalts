@@ -1,6 +1,7 @@
 baseURL = "https://aiopentec.github.io/openalts/"
 languageCode = "en-us"
 title = "OpenAlts"
+publishDir = "docs"
 
 [taxonomies]
 category = "categories"
