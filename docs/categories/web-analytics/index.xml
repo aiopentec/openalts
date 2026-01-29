@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web-Analytics on OpenAlts</title>
-    <link>https://aiopentec.github.io/openalts/categories/web-analytics/</link>
+    <link>http://localhost:1313/openalts/categories/web-analytics/</link>
     <description>Recent content in Web-Analytics on OpenAlts</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://aiopentec.github.io/openalts/categories/web-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/openalts/categories/web-analytics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GoatCounter – Open Source Alternative to Google Analytics</title>
-      <link>https://aiopentec.github.io/openalts/tools/goatcounter/</link>
+      <link>http://localhost:1313/openalts/tools/goatcounter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aiopentec.github.io/openalts/tools/goatcounter/</guid>
+      <guid>http://localhost:1313/openalts/tools/goatcounter/</guid>
       <description></description>
     </item>
     <item>
       <title>Matomo – Open Source Alternative to Google Analytics</title>
-      <link>https://aiopentec.github.io/openalts/tools/matomo/</link>
+      <link>http://localhost:1313/openalts/tools/matomo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aiopentec.github.io/openalts/tools/matomo/</guid>
+      <guid>http://localhost:1313/openalts/tools/matomo/</guid>
       <description></description>
     </item>
     <item>
       <title>Open Web Analytics – Open Source Alternative to Google Analytics</title>
-      <link>https://aiopentec.github.io/openalts/tools/open-web-analytics/</link>
+      <link>http://localhost:1313/openalts/tools/open-web-analytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aiopentec.github.io/openalts/tools/open-web-analytics/</guid>
+      <guid>http://localhost:1313/openalts/tools/open-web-analytics/</guid>
       <description></description>
     </item>
     <item>
       <title>Plausible – Open Source Alternative to Google Analytics</title>
-      <link>https://aiopentec.github.io/openalts/tools/plausible/</link>
+      <link>http://localhost:1313/openalts/tools/plausible/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aiopentec.github.io/openalts/tools/plausible/</guid>
+      <guid>http://localhost:1313/openalts/tools/plausible/</guid>
       <description></description>
     </item>
     <item>
       <title>Umami – Open Source Alternative to Google Analytics</title>
-      <link>https://aiopentec.github.io/openalts/tools/umami/</link>
+      <link>http://localhost:1313/openalts/tools/umami/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aiopentec.github.io/openalts/tools/umami/</guid>
+      <guid>http://localhost:1313/openalts/tools/umami/</guid>
       <description></description>
     </item>
   </channel>

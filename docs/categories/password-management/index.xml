@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Password-Management on OpenAlts</title>
-    <link>https://aiopentec.github.io/openalts/categories/password-management/</link>
+    <link>http://localhost:1313/openalts/categories/password-management/</link>
     <description>Recent content in Password-Management on OpenAlts</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://aiopentec.github.io/openalts/categories/password-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/openalts/categories/password-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitwarden – Open Source Alternative to 1Password</title>
-      <link>https://aiopentec.github.io/openalts/tools/bitwarden/</link>
+      <link>http://localhost:1313/openalts/tools/bitwarden/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aiopentec.github.io/openalts/tools/bitwarden/</guid>
+      <guid>http://localhost:1313/openalts/tools/bitwarden/</guid>
       <description></description>
     </item>
     <item>
       <title>KeePass – Open Source Alternative to LastPass</title>
-      <link>https://aiopentec.github.io/openalts/tools/keepass/</link>
+      <link>http://localhost:1313/openalts/tools/keepass/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aiopentec.github.io/openalts/tools/keepass/</guid>
+      <guid>http://localhost:1313/openalts/tools/keepass/</guid>
       <description></description>
     </item>
     <item>
       <title>Padloc – Open Source Alternative to 1Password</title>
-      <link>https://aiopentec.github.io/openalts/tools/padloc/</link>
+      <link>http://localhost:1313/openalts/tools/padloc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aiopentec.github.io/openalts/tools/padloc/</guid>
+      <guid>http://localhost:1313/openalts/tools/padloc/</guid>
       <description></description>
     </item>
     <item>
       <title>Passbolt – Open Source Alternative to 1Password</title>
-      <link>https://aiopentec.github.io/openalts/tools/passbolt/</link>
+      <link>http://localhost:1313/openalts/tools/passbolt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aiopentec.github.io/openalts/tools/passbolt/</guid>
+      <guid>http://localhost:1313/openalts/tools/passbolt/</guid>
       <description></description>
     </item>
     <item>
       <title>Vaultwarden – Open Source Alternative to Bitwarden (Self-Hosted)</title>
-      <link>https://aiopentec.github.io/openalts/tools/vaultwarden/</link>
+      <link>http://localhost:1313/openalts/tools/vaultwarden/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aiopentec.github.io/openalts/tools/vaultwarden/</guid>
+      <guid>http://localhost:1313/openalts/tools/vaultwarden/</guid>
       <description></description>
     </item>
   </channel>

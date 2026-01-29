@@ -1,27 +1,8 @@
 {{ define "main" }}
-<main>
-  <h1>{{ .Title }}</h1>
-  
-  {{/* This renders text from your _index.md file (like the intro paragraph) */}}
-  <div class="content">
-    {{ .Content }}
-  </div>
-
-  {{/* This is the Categories Section */}}
-  <section>
-    <h2>Browse by Category</h2>
-    <ul>
-      {{/* We loop through the categories taxonomy */}}
-      {{ range .Site.Taxonomies.categories }}
-        <li>
-          {{/* We create a working link using urlize */}}
-          <a href="{{ .Page.RelPermalink | default (print "/categories/" .Page.Title | urlize) }}">
-            {{ .Page.Title }}
-          </a> 
-          ({{ .Count }} tools)
-        </li>
-      {{ end }}
-    </ul>
-  </section>
-</main>
+<h1>{{ .Title }}</h1>
+<ul>
+{{ range .Pages }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
 {{ end }}

@@ -2,6 +2,23 @@
 <main class="container">
   <h1>{{ .Title }}</h1>
 
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "{{ .Title }}",
+  "itemListElement": [
+    {{ range $index, $page := .Pages }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $index 1 }},
+      "url": "{{ $page.Permalink }}"
+    }{{ if ne (add $index 1) (len $.Pages) }},{{ end }}
+    {{ end }}
+  ]
+}
+</script>
+
   {{ if .Content }}
     <div class="content">
       {{ .Content }}
@@ -9,9 +26,12 @@
   {{ end }}
 
   <ul>
-  {{ range .Site.Taxonomies.categories }}
-    <li><a href="{{ .Page.RelPermalink | urlize }}">{{ .Page.Title }}</a> ({{ .Count }} tools)</li>
-  {{ end }}
-</ul>
+    {{ range .Site.Taxonomies.categories }}
+      <li>
+        <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+        ({{ .Count }} tools)
+      </li>
+    {{ end }}
+  </ul>
 </main>
 {{ end }}

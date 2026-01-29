@@ -13,5 +13,7 @@ description = "Open source alternatives to popular software tools."
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
+  lastmod = true
+
 
 enableRobotsTXT = true
