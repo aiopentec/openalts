@@ -9,7 +9,8 @@
   <li>
     Category:
     {{ with index .Params.categories 0 }}
-      <a href="{{ "/categories/" | relURL }}{{ . }}/">
+      <a href="{{ "categories/" | relURL }}{{ . }}/">
+
         {{ humanize . }}
       </a>
     {{ end }}
