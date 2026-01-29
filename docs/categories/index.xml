@@ -1,1 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on OpenAlts</title><link>https://aiopentec.github.io/openalts/categories/</link><description>Recent content in Categories on OpenAlts</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://aiopentec.github.io/openalts/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Password-Management</title><link>https://aiopentec.github.io/openalts/categories/password-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aiopentec.github.io/openalts/categories/password-management/</guid><description/></item><item><title>Team-Communication</title><link>https://aiopentec.github.io/openalts/categories/team-communication/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aiopentec.github.io/openalts/categories/team-communication/</guid><description/></item><item><title>Web-Analytics</title><link>https://aiopentec.github.io/openalts/categories/web-analytics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aiopentec.github.io/openalts/categories/web-analytics/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on OpenAlts</title>
+    <link>https://aiopentec.github.io/openalts/categories/</link>
+    <description>Recent content in Categories on OpenAlts</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://aiopentec.github.io/openalts/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Password-Management</title>
+      <link>https://aiopentec.github.io/openalts/categories/password-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aiopentec.github.io/openalts/categories/password-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Team-Communication</title>
+      <link>https://aiopentec.github.io/openalts/categories/team-communication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aiopentec.github.io/openalts/categories/team-communication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Analytics</title>
+      <link>https://aiopentec.github.io/openalts/categories/web-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aiopentec.github.io/openalts/categories/web-analytics/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
