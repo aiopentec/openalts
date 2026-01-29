@@ -1,25 +1,41 @@
 {{ define "main" }}
 
-<h1>Open Source Software Alternatives</h1>
+<h1>{{ .Site.Title }}</h1>
+
 <p>{{ .Site.Params.description }}</p>
 
-<h2>Browse by Category</h2>
-<ul>
-{{ range .Site.Taxonomies.categories }}
-  <li>
-    <a href="{{ .Page.RelPermalink }}">{{ humanize .Page.Title }}</a> ({{ .Count }} tools)
-  </li>
-{{ end }}
-</ul>
-
+<!-- ========================= -->
+<!-- JSON-LD: Software Directory -->
+<!-- ========================= -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "{{ .Site.Title }}",
+  "@type": "ItemList",
+  "name": "Open Source Software Directory",
   "description": "{{ .Site.Params.description }}",
-  "url": "{{ .Site.BaseURL }}"
+  "itemListElement": [
+    {{ $tools := where .Site.RegularPages "Section" "tools" }}
+    {{ range $index, $tool := $tools }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $index 1 }},
+      "name": "{{ $tool.Params.tool_name }}",
+      "url": "{{ $tool.Permalink }}"
+    }{{ if ne (add $index 1) (len $tools) }},{{ end }}
+    {{ end }}
+  ]
 }
 </script>
+
+<h2>Categories</h2>
+<ul>
+  {{ range .Site.Taxonomies.categories }}
+    <li>
+      <a href="{{ .Page.RelPermalink }}">
+        {{ .Page.Title }} ({{ .Count }})
+      </a>
+    </li>
+  {{ end }}
+</ul>
 
 {{ end }}
