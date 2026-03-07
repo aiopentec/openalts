@@ -124,5 +124,11 @@
     "category": "developer-tools",
     "description": "Example autonomous discovery tool.",
     "date_added": "2026-03-06"
+  },
+  {
+    "name": "ExampleOpenTool",
+    "category": "developer-tools",
+    "description": "Example autonomous discovery tool.",
+    "date_added": "2026-03-07"
   }
 ]
